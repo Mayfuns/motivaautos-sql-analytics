@@ -16,15 +16,25 @@ The project demonstrates how structured queries can support automotive decision-
 
 **How can relational automotive data be queried and combined to produce reliable business information for commercial and operational decision support?**
 
+## SQL file
+
+[View the complete MotivaAutos SQL analysis](01_sql/MotivaAutos%20SQL.sql)
+
+The SQL file contains the full analysis used in this project, covering customer, vehicle and order data as well as sales, revenue, segmentation and time-based analysis.
+
 ## Tools and SQL skills
 
-- SQL
+- PostgreSQL / SQL
 - Relational data analysis
-- SELECT and filtering
-- Sorting
-- JOIN operations
-- Aggregation
-- GROUP BY
+- SELECT, DISTINCT and filtering
+- ORDER BY, LIMIT, BETWEEN, IN and ILIKE
+- JOIN and LEFT JOIN operations
+- Aggregate functions and GROUP BY
+- HAVING and subqueries
+- CASE expressions and customer segmentation
+- COALESCE, CAST and TO_CHAR formatting
+- EXTRACT and time-based trend analysis
+- EXPLAIN ANALYSE
 - Business-question-driven querying
 
 ## Analytical workflow
@@ -53,7 +63,7 @@ The project demonstrates how structured queries can support automotive decision-
 
 ```text
 01_sql/
-  ├── MotivaAutos SQL File.sql
+  ├── MotivaAutos SQL.sql
   └── README.md
 
 02_database/
